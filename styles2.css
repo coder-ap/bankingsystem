@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.3)),url("https://www.dowgroup.com/wp-content/uploads/2020/02/crm-1170.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group
+{
+    
+    padding-right: 30px;
+}
+
+select{
+    background-color: transparent!important;
+    color: white!important;
+    border-radius: 25px!important;
+}
+
+option{
+    background: transparent!important;
+    color: black;
+}
+
+.form-group2
+{
+    padding-right: 30px;
+    border-radius: 25px!important;
+}
+
+.form-group3
+{
+    padding-top: 7px;
+    padding-right: 30px;
+    border-radius: 25px!important;
+    
+}
+
+.form-control
+{
+
+    background: transparent!important;
+    color: white!important;
+    border-radius: 25px!important;
+}
+
+input::placeholder
+{
+    color: white!important;
+}
+
+button{
+   
+    width: 55%;
+    border-radius: 25px!important;
+    border: solid white;
+    background: transparent!important;
+    color: white;
+}
+
+button:hover{
+    background-color: white!important;
+    color:black;
+    
+}
+
+.form-group4
+{
+    padding-top: 20px;
+    text-align: center;
+    margin-right: 100px;
+    
+}
+
+h1{
+    padding-top: 150px;
+    color: white;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(141, 151, 151, 0.4);
+}
+
+.Foot:hover
+  {
+        color: black;
+  }
+
+section
+  {
+      padding-bottom :161px;
+  }

@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.3)),url("https://www.timico.com/wp-content/uploads/2018/08/banking-1024x512.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(141, 151, 151, 0.4);
+    color:black;
+    border-bottom:solid black;
+}
+
+a{
+    color: black;
+    
+}
+
+h1{
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+p{
+
+    font-weight: bolder ;
+    padding-bottom: 70px;
+}
+
+.send1,.send2 , .send3
+{
+    border-radius: 25px;
+    border: solid black;
+    text-decoration: none!important;
+    margin-right: 20px;
+    padding:20px 20px 20px 20px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+.send1:hover,.send2:hover ,.send3:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer{
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 50px!important;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table
+{
+    
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(76, 15, 231, 0.03);
+    border-radius: 25px;
+    margin: auto;
+    color: black;
+    background: transparent;
+    font-weight: bolder;
+    
+    
+}
+
+th,td{
+    
+    padding: 8px 30px;
+    text-align: center;
+    color:black;
+    border-radius: 25px!important;
+}
+
+
+
+
+th{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    border: black;
+}
+
+td
+{
+    font-size: 20px;
+    border: white;
+}
+
+table, th, td {
+   
+    border: 1px solid black;
+  }
+
+  button
+  {
+      background: transparent!important;
+      color:black;
+      border: 1px solid #808080;
+      border-radius: 25px;
+      font-weight: bolder;
+      width: 100%;
+  }
+
+  footer{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgba(141, 151, 151, 0.4);
+  }
+
+  section
+  {
+      padding-bottom :161px;
+  }
+
+  .Foot:hover
+  {
+        color: black;
+  }
+
+  @media(max-width: 760px)
+{
+
+    h1{
+    font-size: 4.1rem;
+    font-weight: bolder;
+    }
+
+
+    p{
+        margin-left: 2px;
+        margin-right: 2px;
+        float: right;
+    }
+
+    .send1{
+        margin-top: 80px;;
+        display: block;
+        margin-left: 20px;
+
+    }
+
+    .send2{
+       padding-top: 60px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .send3{
+        padding-top:60px;
+        display: block;
+        margin-top: 20px;;
+        margin-left: 20px;
+    }
+
+   
+
+}
+
+  
+
+
